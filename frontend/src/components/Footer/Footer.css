@@ -1,0 +1,11 @@
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #455a64;
+}
+
+.Footer p {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #fff;
+}

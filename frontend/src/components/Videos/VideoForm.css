@@ -1,0 +1,47 @@
+.VideoForm_Card {
+  width: 50%;
+  margin-left: 370px;
+}
+
+.VideoForm_Box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-back {
+  margin-right: 600px;
+}
+
+@media (max-width: 820px) {
+  .VideoForm_Card {
+    width: 60%;
+    margin-left: 180px;
+  }
+}
+
+@media (max-width: 500px) {
+  .VideoForm_Card {
+    width: 90%;
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 412px) {
+  .VideoForm_Card {
+    width: 400px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 390px) {
+  .VideoForm_Card {
+    width: 370px;
+    margin-left: 0px;
+  }
+
+  .VideoForm_Box {
+    width: auto;
+  }
+}
