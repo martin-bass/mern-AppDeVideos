@@ -1,7 +1,7 @@
 # MERN-AppDeVideos
 Este proyecto implica un **CRUD** desarrollado en TypeScript que consta de dos carpetas: 
 
-- Una API desarrollada en **Node.js** (Utilizando Express.js) y **MongoDB** como base de datos. El deploy de esta API fue realizado en **Heroku** y se puede acceder a traves del siguiente link (https://pacific-caverns-71669.herokuapp.com/videos)
+- Una API desarrollada en **Node.js** (Utilizando Express.js) y **MongoDB** como base de datos. El deploy de esta API fue realizado en **Heroku** y se puede acceder a traves del siguiente link (https://mern-appdevideos-production-09ca.up.railway.app/videos)
 - Un desarrollo Frontend, hecho con **React** y con componenetes de **Material UI** que consta de un llamado a la API para presentar diferentes cards que contienen el título, descripción y link a un video de **Youtube**:
 
 
@@ -15,4 +15,4 @@ Finalmente, cada card tiene la opción de borrar o modficar su contenido:
 
 ![screencapture-mern-appdevideos-netlify-app-update-62fa8dc1c271e6e7cda3e6cb-2022-08-23-18_53_28](https://user-images.githubusercontent.com/84106998/186273227-140789e8-6c42-4db8-8b00-53e9d02d8f4b.jpeg)
 
-Esta App esta subida a un Server en **Netlify** al que puede accederse mediante el siguiente link: https://mern-appdevideos.netlify.app/
+Esta App esta subida a un Server en **Netlify** al que puede accederse mediante el siguiente link: https://mern-app-de-videos.vercel.app/
