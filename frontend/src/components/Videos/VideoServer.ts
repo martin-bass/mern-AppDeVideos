@@ -1,8 +1,8 @@
 import axios from "axios";
 import { Video } from "./Video";
 
-//const api = "http://localhost:4000"
-const api = 'https://mern-appdevideos-production-09ca.up.railway.app';
+//const api = "http://localhost:4000";
+const api = "https://mern-appdevideos-production-09ca.up.railway.app";
 
 export const getVideos = async () => {
   return await axios.get<Video[]>(`${api}/videos`);

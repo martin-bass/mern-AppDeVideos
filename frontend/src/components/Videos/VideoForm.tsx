@@ -36,8 +36,6 @@ function VideoForm() {
     setVideo({ ...video, [e.target.name]: e.target.value });
   };
 
-  console.log(video);
-
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
