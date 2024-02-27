@@ -38,11 +38,11 @@ function VideoList() {
       .sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
 
     setVideos(formatVideos);
+    setIsLoaded(!isLoaded);
   };
 
   useEffect(() => {
     loadVideos();
-    setIsLoaded(!isLoaded);
   }, []);
 
   return (
