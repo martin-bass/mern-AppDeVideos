@@ -27,7 +27,7 @@ function VideoItem({ vid, loadVideos }: Props) {
 
   return (
     <div className="VideoItem">
-      <Card sx={{ maxWidth: 345, minHeight: 520}}>
+      <Card sx={{ maxWidth: 345, minHeight: 550}}>
         <CardContent>
           <ReactPlayer url={vid.url} width={"100%"} />
           <Typography gutterBottom variant="h5" component="div">
