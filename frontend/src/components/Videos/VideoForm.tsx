@@ -126,7 +126,8 @@ function VideoForm() {
               }
               value={params.id && video.description}
               name="description"
-              maxRows={4}
+              minRows={4}
+              maxLength={200}
               aria-label="maximum height"
               style={{
                 width: 400,
